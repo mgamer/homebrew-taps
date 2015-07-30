@@ -3,7 +3,7 @@ require 'formula'
 class Gyp < Formula
 
       # homebrew should automatically know what to do svn repos
-      url "https://chromium.googlesource.com/external/gyp"
+      url "https://chromium.googlesource.com/external/gyp", :using => :git
       version "1.1"
 
       depends_on :python
