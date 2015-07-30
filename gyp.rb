@@ -4,7 +4,7 @@ class Gyp < Formula
 
       # homebrew should automatically know what to do svn repos
       url "https://chromium.googlesource.com/external/gyp"
-      #version "1.0"
+      version "1.1"
 
       depends_on :python
 
