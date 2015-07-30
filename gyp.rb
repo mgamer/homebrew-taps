@@ -3,8 +3,8 @@ require 'formula'
 class Gyp < Formula
 
       # homebrew should automatically know what to do svn repos
-      url "https://github.com/mgamer/gyp.git"
-      version "1.0"
+      url "https://chromium.googlesource.com/external/gyp"
+      #version "1.0"
 
       depends_on :python
 
